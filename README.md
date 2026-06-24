@@ -8,6 +8,13 @@ A Python script that identifies an unknown DNA sequence by searching it against 
 - Parses the returned results (XML format) using `NCBIXML`
 - Reports the top matching species/sequence, its accession number, and the E-value (a statistical measure of how significant the match is)
 
+## Setup
+Install the required dependency:
+```
+pip install -r requirements.txt
+```
+
+
 ## How to run
 ```
 python identify_unknown_dna.py sample_unknown.fa
